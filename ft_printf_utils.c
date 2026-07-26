@@ -6,7 +6,7 @@
 /*   By: jsingh <jsingh@student.42warsaw.pl>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/26 21:13:43 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/27 01:39:01 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/27 01:42:15 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,4 +55,3 @@ int	print_digit(long n, int base)
 		return (count + print_digit(n % base, base));
 	}
 }
-e
