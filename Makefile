@@ -6,7 +6,7 @@
 #    By: jsingh <jsingh@student.42warsaw.pl>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/27 16:49:34 by jsingh            #+#    #+#              #
-#    Updated: 2026/07/27 17:00:16 by jsingh           ###   ########.fr        #
+#    Updated: 2026/07/27 17:05:28 by jsingh           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ $(NAME): $(OBJS)
 clean:
 	$(RM) $(OBJS)
 
-fclean:
+fclean: clean
 	$(RM) $(NAME)
 
 re: fclean all
